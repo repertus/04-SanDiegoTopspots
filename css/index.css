@@ -51,6 +51,8 @@ h1 {
 /*Google Embedded Map*/
 #map_wrapper {
     height: 400px;
+	max-width: 61.5%;
+	margin: 2em auto;
 }
 
 #map_canvas {

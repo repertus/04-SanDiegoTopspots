@@ -6,9 +6,9 @@ $(document).ready(function() {
         $.each(data, function(key, val){
            var tr = '<tr>';
            $.each(val, function(k, v) {
-                console.log(tr);
+                // console.log(tr);
                 if (k === 'location') {
-                    tr += '<td><a class="btn btn-primary" href="http://maps.google.com/?ll=' + v + '" role="button">Location</a></td>'; 
+                    tr += '<td><a class="btn btn-primary" href="http://maps.google.com/?ll=' + v + '" role="button">Open in Google Maps</a></td>'; 
                 } else {
                     tr += '<td>' + v + '</td>';
                 };     

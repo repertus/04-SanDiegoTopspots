@@ -16,7 +16,9 @@
 		<h1>San Diego Top Spots</h1>
 	</header>
 
-
+	<div id="map_wrapper" class="row well">
+    	<div id="map_canvas" class="mapping"></div>
+	</div>
 
 	<div class="container">
 		<div class="row well">
@@ -27,7 +29,7 @@
 							<th data-field="name">Name</th>
 							<th data-field="description">Description</th>
 							<th data-field="location">Link</th>
-						<!-- </tr> -->
+						</tr>
 					</thead>
 					<tbody id="topSpotsTable"></tbody>	
 				</table>
@@ -35,17 +37,12 @@
 		</div>
 	</div>
 
-	<div id="map_wrapper">
-    	<div id="map_canvas" class="mapping"></div>
-	</div>
-
-
-	
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script src="bower_components/bootstrap-table/dist/bootstrap-table.js"></script>
 	<!--Local .js files needed to support applicaton-->
 	<script src="js/index.js"></script>
+	<script src="js/google_maps.js"></script>
 
 	<!-- Used to set up sticky footer -->
 	<div class="push"></div>
